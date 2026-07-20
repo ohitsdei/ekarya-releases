@@ -1,4 +1,4 @@
-# Rilis eKarya NGC untuk Android
+# eKarya NGC untuk Android
 
 Repository ini adalah kanal distribusi resmi APK **eKarya NGC**. Gunakan halaman [Releases](https://github.com/ohitsdei/ekarya-releases/releases) untuk mengunduh versi aplikasi terbaru dan membaca catatan perubahannya.
 
@@ -33,11 +33,3 @@ Tag rilis menggunakan format `v<versi>+<versionCode>`, misalnya `v1.1.2+12`. Nil
 - Pembaruan APK dapat meminta konfirmasi pemasangan dari Android. Ini adalah perilaku normal untuk instalasi di luar Play Store.
 - Bila proses pemasangan gagal, hapus file APK yang tidak lengkap, unduh ulang dari rilis terbaru, lalu coba lagi.
 - Untuk kendala akun atau fitur aplikasi, hubungi administrator eKarya NGC melalui kanal dukungan internal perusahaan.
-
-## Untuk pengelola rilis
-
-Rilis di repository ini dipublikasikan otomatis dari repository aplikasi melalui workflow **Android GitHub Release**. Proses tersebut membangun APK signed, memvalidasi versi paket, lalu mengunggah APK dan `app-update.json` ke GitHub Release.
-
-Jangan mengedit atau mengunggah `app-update.json` secara manual. Metadata harus selalu cocok dengan tag dan APK pada rilis yang sama agar pembaruan dalam aplikasi tervalidasi dengan benar.
-
-Dokumentasi lengkap alur rilis tersedia di repository source eKarya untuk pengelola yang memiliki akses.
