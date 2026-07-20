@@ -1,22 +1,31 @@
 # eKarya NGC untuk Android
 
-Repository ini adalah kanal distribusi resmi APK **eKarya NGC**. Gunakan halaman [Releases](https://github.com/ohitsdei/ekarya-releases/releases) untuk mengunduh versi aplikasi terbaru dan membaca catatan perubahannya.
+Unduh aplikasi resmi eKarya NGC untuk HP Android melalui tombol berikut.
 
-> Repository ini hanya menyimpan artefak rilis dan metadata pembaruan. Kode sumber aplikasi tidak dipublikasikan di sini.
+<p align="center">
+  <a href="https://github.com/ohitsdei/ekarya-releases/releases/latest#assets">
+    <img src="https://img.shields.io/badge/Download_APK_Terbaru-1800AD?style=for-the-badge&logo=android&logoColor=white" alt="Download APK eKarya NGC terbaru">
+  </a>
+</p>
+
+Jika tombol tidak muncul, buka [halaman download eKarya NGC](https://github.com/ohitsdei/ekarya-releases/releases/latest#assets).
 
 ## Instal aplikasi
 
-1. Buka [rilis terbaru](https://github.com/ohitsdei/ekarya-releases/releases/latest).
-2. Pada bagian **Assets**, unduh file bernama `ekarya-<versi>-<versionCode>.apk`.
-3. Buka file APK setelah unduhan selesai.
-4. Jika Android meminta izin, izinkan pemasangan aplikasi dari browser atau pengelola file yang digunakan.
-5. Ikuti konfirmasi pemasangan Android. Saat memperbarui aplikasi, data dan akun yang ada tetap dipertahankan.
+1. Tekan tombol **Download APK Terbaru** di atas.
+2. Di bagian **Assets**, pilih file yang namanya berakhiran **`.apk`**, misalnya `ekarya-1.1.2-12.apk`.
+3. Jangan pilih `app-update.json`, **Source code (zip)**, atau **Source code (tar.gz)**.
+4. Setelah unduhan selesai, buka file APK dari notifikasi atau folder **Download** di HP.
+5. Jika muncul peringatan keamanan, pilih **Setelan** lalu aktifkan **Izinkan dari sumber ini** untuk browser atau aplikasi File yang digunakan. Kembali ke layar sebelumnya dan tekan **Instal**.
+6. Setelah selesai, tekan **Buka** untuk menjalankan eKarya NGC.
 
-Unduh APK hanya dari halaman Releases repository ini atau melalui notifikasi pembaruan di dalam aplikasi. Jangan memasang APK dari tautan yang tidak dikenal.
+Saat memperbarui versi lama, cukup instal APK terbaru di atas aplikasi yang sudah ada. Data dan akun tetap dipertahankan.
+
+> Unduh APK hanya dari repository `ohitsdei/ekarya-releases` atau melalui pemberitahuan pembaruan di dalam aplikasi.
 
 ## Catatan untuk pengguna
 
 - Pastikan ruang penyimpanan dan koneksi internet mencukupi sebelum mengunduh APK.
-- Pembaruan APK dapat meminta konfirmasi pemasangan dari Android. Ini adalah perilaku normal untuk instalasi di luar Play Store.
+- Tampilan dan nama menu izin dapat sedikit berbeda pada setiap merek HP Android.
 - Bila proses pemasangan gagal, hapus file APK yang tidak lengkap, unduh ulang dari rilis terbaru, lalu coba lagi.
 - Untuk kendala akun atau fitur aplikasi, hubungi administrator eKarya NGC melalui kanal dukungan internal perusahaan.
