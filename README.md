@@ -14,19 +14,6 @@ Repository ini adalah kanal distribusi resmi APK **eKarya NGC**. Gunakan halaman
 
 Unduh APK hanya dari halaman Releases repository ini atau melalui notifikasi pembaruan di dalam aplikasi. Jangan memasang APK dari tautan yang tidak dikenal.
 
-## Pembaruan dari dalam aplikasi
-
-eKarya NGC memeriksa metadata rilis terbaru untuk menentukan ketersediaan pembaruan Android. Jika versi yang lebih baru tersedia, aplikasi dapat mengunduh APK rilis dan membuka installer Android.
-
-Setiap rilis memuat dua aset berikut:
-
-| Aset | Kegunaan |
-| --- | --- |
-| `ekarya-<versi>-<versionCode>.apk` | Paket instalasi Android. |
-| `app-update.json` | Metadata versi, changelog, dan tautan APK yang dibaca oleh aplikasi. |
-
-Tag rilis menggunakan format `v<versi>+<versionCode>`, misalnya `v1.1.2+12`. Nilai `versionCode` harus lebih tinggi dari rilis sebelumnya agar Android menerima pembaruan.
-
 ## Catatan untuk pengguna
 
 - Pastikan ruang penyimpanan dan koneksi internet mencukupi sebelum mengunduh APK.
